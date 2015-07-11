@@ -8,9 +8,17 @@ import java.io.Serializable;
 /**
  * Base class of persistent
  */
-public abstract class Persistent implements Serializable{
+public class Persistent implements Serializable{
     //-- Attribute
     private long id;
+
+    //-- Constructor
+    public Persistent(){
+
+    }
+    public Persistent(long id){
+        this.id = id;
+    }
 
     //-- Getter/Setter
     public final long getId() {
