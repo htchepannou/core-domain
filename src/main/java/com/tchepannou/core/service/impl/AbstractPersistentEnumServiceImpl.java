@@ -38,6 +38,6 @@ public abstract class AbstractPersistentEnumServiceImpl<T extends PersistentEnum
 
     //-- Protected
     protected Class getPersistentClass () {
-        return ((Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0]);
+        return (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
 }

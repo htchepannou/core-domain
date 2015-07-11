@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8ba5df1-c67e-4c9f-a979-14b12fe83a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tchepannou/core/service/AbstractPersistentEnumService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplIT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tchepannou/core/exception/BadRequestException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tchepannou/core/exception/NotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/RoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/RoleServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/dao/impl/AbstractPersistentEnumDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/dao/impl/AbstractPersistentEnumDaoImplIT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/core-domain-1.0.jar" afterPath="$PROJECT_DIR$/target/core-domain-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jacoco.exec" afterPath="$PROJECT_DIR$/target/jacoco.exec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tchepannou.core.validator.EnumContraintValidatorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tchepannou.core.validator.EnumContraintValidatorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/TestConfig.java" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/TestConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.tchepannou.core.validator.EnumContraintValidatorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tchepannou.core.validator.EnumContraintValidatorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="core-domain.iws" />
@@ -46,8 +28,8 @@
       <file leaf-file-name="AbstractPersistentEnumServiceImplIT.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.4896074">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.72286373">
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -818,12 +800,12 @@
       <created>1436615640640</created>
       <option name="number" value="Default" />
       <updated>1436615640640</updated>
-      <workItem from="1436615641850" duration="4833000" />
+      <workItem from="1436615641850" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4833000" />
+    <option name="totallyTimeSpent" value="4966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="163" y="95" width="1257" height="779" extended-state="0" />
@@ -1098,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4896074">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.72286373">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
