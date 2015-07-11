@@ -4,7 +4,5 @@ com/tchepannou/core/dao/AbstractPersistentEnumDao.class
 com/tchepannou/core/domain/Persistent.class
 com/tchepannou/core/validator/Enum.class
 com/tchepannou/core/exception/NotFoundException.class
-com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImpl.class
-com/tchepannou/core/service/AbstractPersistentEnumService.class
 com/tchepannou/core/dao/impl/AbstractPersistentEnumDaoImpl$1.class
 com/tchepannou/core/dao/impl/AbstractPersistentEnumDaoImpl.class

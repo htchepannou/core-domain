@@ -1,9 +1,6 @@
-com/tchepannou/core/validator/EnumContraintValidatorTest$Empty.class
 com/tchepannou/core/validator/EnumContraintValidatorTest$Gender.class
 com/tchepannou/core/RoleDaoImpl.class
-com/tchepannou/core/RoleServiceImpl.class
-com/tchepannou/core/RoleService.class
-com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplTest.class
+com/tchepannou/core/validator/EnumContraintValidatorTest$Empty.class
 com/tchepannou/core/Role.class
 com/tchepannou/core/domain/PersistentEnumTest.class
 com/tchepannou/core/TestConfig.class
