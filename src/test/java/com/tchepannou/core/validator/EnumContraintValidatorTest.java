@@ -9,9 +9,14 @@ public class EnumContraintValidatorTest  {
     enum Gender {
         MALE, FEMALE
     }
+    enum Empty {
+    }
 
-    @Enum(enumClass = Gender.class, message = "gender", ignoreCase = true)
+    @Enum(enumClass = Gender.class, message = "gender")
     public String gender;
+
+    @Enum(enumClass = Empty.class, message = "empty")
+    public String empty;
 
     private EnumContraintValidator validator = new EnumContraintValidator();
 
@@ -41,6 +46,14 @@ public class EnumContraintValidatorTest  {
 
     @Test
     public void testIsValid_badValue() throws Exception {
+        assertThat(validator.isValid("???", null)).isFalse();
+    }
+
+    @Test
+    public void testIsValid_EmptyEnum() throws Exception {
+        validator = new EnumContraintValidator();
+        validator.initialize(EnumContraintValidatorTest.class.getField("empty").getAnnotation(Enum.class));
+
         assertThat(validator.isValid("???", null)).isFalse();
     }
 }

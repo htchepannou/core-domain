@@ -49,6 +49,15 @@ public class AbstractPersistentEnumServiceImplTest {
         assertThat(role).isEqualTo(new Role(1, "admin"));
     }
     @Test
+    public void testFindByName_null() throws Exception {
+        try {
+            roleService.findByName(null);
+        } catch (NotFoundException e){
+            assertThat(e.getId()).isEqualTo(null);
+            assertThat(e.getPersistentClass()).isEqualTo(Role.class);
+        }
+    }
+    @Test
     public void testFindById_badName() throws Exception {
         try {
             roleService.findByName("???");

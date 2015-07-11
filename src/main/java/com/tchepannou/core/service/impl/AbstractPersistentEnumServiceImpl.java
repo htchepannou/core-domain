@@ -15,20 +15,20 @@ public abstract class AbstractPersistentEnumServiceImpl<T extends PersistentEnum
     //-- AbstractPersistentEnumService overrides
     @Override
     public T findById(final long id) {
-        T purpose = getDao().findById(id);
-        if (purpose == null){
+        T value = getDao().findById(id);
+        if (value == null){
             throw new NotFoundException(id, getPersistentClass());
         }
-        return purpose;
+        return value;
     }
 
     @Override
     public T findByName(final String name) {
-        T purpose = name != null ? getDao().findByName(name) : null;
-        if (purpose == null){
+        T value = name != null ? getDao().findByName(name) : null;
+        if (value == null){
             throw new NotFoundException(name, getPersistentClass());
         }
-        return purpose;
+        return value;
     }
 
     @Override

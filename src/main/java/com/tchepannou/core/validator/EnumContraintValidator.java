@@ -20,15 +20,10 @@ public class EnumContraintValidator implements ConstraintValidator<Enum, String>
 
         final boolean result = false;
         final Object[] enumValues = this.annotation.enumClass().getEnumConstants();
-        if(enumValues != null) {
-            for(Object enumValue : enumValues) {
-                final String str = enumValue.toString();
-                if(
-                        (this.annotation.ignoreCase() && str.equalsIgnoreCase(value)) ||
-                        str.equals(value)
-                ) {
-                    return true;
-                }
+        for(Object enumValue : enumValues) {
+            final String str = enumValue.toString();
+            if(str.equalsIgnoreCase(value)) {
+                return true;
             }
         }
 
