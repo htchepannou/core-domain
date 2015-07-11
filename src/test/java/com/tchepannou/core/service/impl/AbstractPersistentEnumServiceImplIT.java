@@ -1,7 +1,7 @@
-package com.tchepannou.core.dao.impl;
+package com.tchepannou.core.service.impl;
 
 import com.tchepannou.core.Role;
-import com.tchepannou.core.RoleDao;
+import com.tchepannou.core.RoleService;
 import com.tchepannou.core.TestConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,50 +15,33 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = TestConfig.class)
-public class AbstractPersistentEnumDaoImplTest {
+public class AbstractPersistentEnumServiceImplIT {
     @Autowired
-    private RoleDao roleDao;
+    private RoleService roleService;
 
     @Test
     public void testFindById() throws Exception {
         // When
-        Role role = roleDao.findById(1);
+        Role role = roleService.findById(1);
 
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
-    }
-    @Test
-    public void testFindById_badId() throws Exception {
-        // When
-        Role role = roleDao.findById(999);
-
-        // Then
-        assertThat(role).isNull();
     }
 
     @Test
     public void testFindByName() throws Exception {
         // When
-        Role role = roleDao.findByName("admin");
+        Role role = roleService.findByName("admin");
 
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
-
-    }
-    @Test
-    public void testFindByName_badName() throws Exception {
-        // When
-        Role role = roleDao.findByName("???");
-
-        // Then
-        assertThat(role).isNull();
 
     }
 
     @Test
     public void testFindAll() throws Exception {
         // When
-        List<Role> roles = roleDao.findAll();
+        List<Role> roles = roleService.findAll();
 
         // Then
         assertThat(roles).containsExactly(

@@ -22,4 +22,9 @@ public class TestConfig {
     public RoleDao roleDao () {
         return new RoleDaoImpl(dataSource());
     }
+
+    @Bean
+    public RoleService roleService () {
+        return new RoleServiceImpl();
+    }
 }

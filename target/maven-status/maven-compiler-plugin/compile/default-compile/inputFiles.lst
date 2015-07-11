@@ -1,6 +1,10 @@
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/dao/AbstractPersistentEnumDao.java
+/Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/service/AbstractPersistentEnumService.java
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/domain/PersistentEnum.java
+/Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/exception/BadRequestException.java
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/validator/EnumContraintValidator.java
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/dao/impl/AbstractPersistentEnumDaoImpl.java
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/validator/Enum.java
 /Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/domain/Persistent.java
+/Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImpl.java
+/Users/htchepannou/Perso/core-domain/src/main/java/com/tchepannou/core/exception/NotFoundException.java
