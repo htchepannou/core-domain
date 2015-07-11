@@ -13,6 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.fail;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = TestConfig.class)
@@ -28,9 +29,15 @@ public class AbstractPersistentEnumServiceImplTest {
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
     }
-    @Test(expected = NotFoundException.class)
+    @Test
     public void testFindById_badId() throws Exception {
-        roleService.findById(1);
+        try {
+            roleService.findById(9999);
+            fail("failed");
+        } catch (NotFoundException e){
+            assertThat(e.getId()).isEqualTo(9999L);
+            assertThat(e.getPersistentClass()).isEqualTo(Role.class);
+        }
     }
 
     @Test
@@ -41,9 +48,16 @@ public class AbstractPersistentEnumServiceImplTest {
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
     }
-    @Test(expected = NotFoundException.class)
+    @Test
     public void testFindById_badName() throws Exception {
-        roleService.findByName("???");
+        try {
+            roleService.findByName("???");
+            fail("failed");
+        } catch (NotFoundException e){
+            assertThat(e.getId()).isEqualTo("???");
+            assertThat(e.getPersistentClass()).isEqualTo(Role.class);
+        }
+
     }
 
     @Test

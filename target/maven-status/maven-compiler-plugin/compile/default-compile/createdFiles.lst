@@ -2,7 +2,6 @@ com/tchepannou/core/domain/PersistentEnum.class
 com/tchepannou/core/validator/EnumContraintValidator.class
 com/tchepannou/core/dao/AbstractPersistentEnumDao.class
 com/tchepannou/core/domain/Persistent.class
-com/tchepannou/core/exception/BadRequestException.class
 com/tchepannou/core/validator/Enum.class
 com/tchepannou/core/exception/NotFoundException.class
 com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImpl.class
