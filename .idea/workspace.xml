@@ -15,7 +15,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tchepannou.core.validator.EnumContraintValidatorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.tchepannou.core.validator.EnumContraintValidatorTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/TestConfig.java" afterPath="$PROJECT_DIR$/src/test/java/com/tchepannou/core/TestConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/com.tchepannou.core.validator.EnumContraintValidatorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.tchepannou.core.validator.EnumContraintValidatorTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -44,8 +46,8 @@
       <file leaf-file-name="AbstractPersistentEnumServiceImplIT.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6581986">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state vertical-scroll-proportion="-0.4896074">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -816,12 +818,12 @@
       <created>1436615640640</created>
       <option name="number" value="Default" />
       <updated>1436615640640</updated>
-      <workItem from="1436615641850" duration="4751000" />
+      <workItem from="1436615641850" duration="4833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4751000" />
+    <option name="totallyTimeSpent" value="4833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="163" y="95" width="1257" height="779" extended-state="0" />
@@ -1096,8 +1098,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tchepannou/core/service/impl/AbstractPersistentEnumServiceImplIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6581986">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state vertical-scroll-proportion="-0.4896074">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

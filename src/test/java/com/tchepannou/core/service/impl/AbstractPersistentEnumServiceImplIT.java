@@ -3,6 +3,7 @@ package com.tchepannou.core.service.impl;
 import com.tchepannou.core.Role;
 import com.tchepannou.core.RoleService;
 import com.tchepannou.core.TestConfig;
+import com.tchepannou.core.exception.NotFoundException;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,10 @@ public class AbstractPersistentEnumServiceImplIT {
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
     }
+    @Test(expected = NotFoundException.class)
+    public void testFindById_badId() throws Exception {
+        roleService.findById(1);
+    }
 
     @Test
     public void testFindByName() throws Exception {
@@ -35,7 +40,10 @@ public class AbstractPersistentEnumServiceImplIT {
 
         // Then
         assertThat(role).isEqualTo(new Role(1, "admin"));
-
+    }
+    @Test(expected = NotFoundException.class)
+    public void testFindById_badName() throws Exception {
+        roleService.findByName("???");
     }
 
     @Test
