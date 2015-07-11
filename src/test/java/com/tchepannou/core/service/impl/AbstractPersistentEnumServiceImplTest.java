@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = TestConfig.class)
-public class AbstractPersistentEnumServiceImplIT {
+public class AbstractPersistentEnumServiceImplTest {
     @Autowired
     private RoleService roleService;
 
