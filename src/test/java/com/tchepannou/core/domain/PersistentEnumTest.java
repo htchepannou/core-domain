@@ -6,8 +6,26 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class PersistentEnumTest {
     @Test
-    public void testInit(){
+    public void testConstructor(){
         PersistentEnum p = new PersistentEnum(1, "foo");
+
+        assertThat(p.getId()).isEqualTo(1);
+        assertThat(p.getName()).isEqualTo("foo");
+    }
+
+    @Test
+    public void testConstructor_Default(){
+        PersistentEnum p = new PersistentEnum();
+
+        assertThat(p.getId()).isEqualTo(0);
+        assertThat(p.getName()).isNull();
+    }
+
+    @Test
+    public void testSetter(){
+        PersistentEnum p = new PersistentEnum();
+        p.setId(1);
+        p.setName("foo");
 
         assertThat(p.getId()).isEqualTo(1);
         assertThat(p.getName()).isEqualTo("foo");
